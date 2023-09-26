@@ -2,6 +2,9 @@ package src.java;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Olá mundo");
+        ProcessoSeletivo candidato1 = new ProcessoSeletivo();
+        //candidato1.selecaodeCandidato();
+        candidato1.listarTentativaDeContato();
+
     }
 }
